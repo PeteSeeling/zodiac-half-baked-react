@@ -5,7 +5,5 @@ export default function ZodiacCard(props) {
     {props.name}
     <img src={`/images/${props.name}.png`}/>
     {props.dates}
-   
-
   </div>
 }
